@@ -277,11 +277,11 @@ function Seasonal(){
       <h2>Seasonal Produce</h2>
       <hr/>
       {availableProduce.map((produce, index)=>
-          <Produce
-            month={produce.month}
-            selection={produce.selection}
-            key={index}
-            />
+        <Produce
+          month={produce.month}
+          selection={produce.selection}
+          key={index}
+        />
       )}
 
     </div>
