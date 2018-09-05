@@ -7,8 +7,12 @@ function App(){
   return (
     <div>
       <Header/>
-      <Schedule />
-      <Seasonal/>
+
+      <div>
+        <Schedule/>
+        <Seasonal/>
+      </div>
+
     </div>
   );
 }

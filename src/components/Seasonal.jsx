@@ -273,7 +273,13 @@ const availableProduce = [
 
 function Seasonal(){
   return(
-    <div>
+    <div className="seasonal">
+      <style jsx>{`
+          .seasonal{
+            float: right;
+          }
+          `}
+      </style>
       <h2>Seasonal Produce</h2>
       <hr/>
       {availableProduce.map((produce, index)=>

@@ -42,7 +42,14 @@ const marketSchedule = [
 
 const Schedule = () => {
   return (
-    <div>
+
+    <div className="schedule">
+      <style jsx>{`
+      .schedule{
+      float: left;
+      }
+    `}
+      </style>
       <h2>Market Schedule</h2>
       <hr/>
       {marketSchedule.map((day, index)=>
