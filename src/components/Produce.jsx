@@ -16,7 +16,7 @@ function Produce(props) {
 
 Produce.propTypes = {
   month: PropTypes.string.isRequired,
-  selection: PropTypes.string.isRequired
+  selection: PropTypes.array.isRequired
 };
 
 export default Produce;
