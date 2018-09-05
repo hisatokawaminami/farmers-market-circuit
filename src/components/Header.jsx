@@ -2,7 +2,18 @@ import React from 'react';
 
 function Header(){
   return (
-    <h1>test</h1>
+    <div className="header">
+      <style jsx>{`
+          .header {
+            background-color: #E0FBFC;
+            font-family: monospace;
+            padding: 20px 20px;
+            text-align: center;
+          }
+        `}
+      </style>
+      <h1>Avery Organic Farm</h1>
+    </div>
   );
 }
 
