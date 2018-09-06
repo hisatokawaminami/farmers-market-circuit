@@ -276,7 +276,7 @@ function Seasonal(){
     <div className="seasonal">
       <style jsx>{`
           .seasonal{
-            float: right;
+          
           }
           `}
       </style>
